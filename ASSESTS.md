@@ -11,3 +11,5 @@ Need: Pitt Band Soultion: Attend a band concert or game to record music, email d
 Need: Fans cheering Solution: Attend game to record and listen to fans  
 
 Need: Sound of basketball going through hoop Solution: Attend an open gym and record someone shooting in quiet  
+
+*** see soundscape sounds in other file***
