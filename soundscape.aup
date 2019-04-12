@@ -1,12 +1,12 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="soundscape_data" version="1.3.0" audacityversion="2.3.0" sel0="315.0703854870" sel1="315.0703854870" vpos="640" h="31.4282558285" zoom="1.4954695627" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="soundscape_data" version="1.3.0" audacityversion="2.3.0" sel0="327.3212698442" sel1="327.6179591866" vpos="944" h="327.2740996984" zoom="3394.8393747740" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags>
-		<tag name="Encoded by" value="SONY IC RECORDER 8.4.0"/>
-		<tag name="ARTIST" value="My Recording"/>
 		<tag name="TITLE" value="190109_2214"/>
+		<tag name="ARTIST" value="My Recording"/>
+		<tag name="Encoded by" value="SONY IC RECORDER 8.4.0"/>
 	</tags>
-	<wavetrack name="jeff capel" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="jeff capel" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="16026905">
 				<waveblock start="0">
@@ -548,7 +548,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="jeff capel" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="jeff capel" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="16026905">
 				<waveblock start="0">
@@ -1090,16 +1090,16 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" numlabels="1" height="73" minimized="0" isSelected="0">
+	<labeltrack name="Label Track" numlabels="1" height="73" minimized="0" isSelected="1">
 		<label t="0.0000000000" t1="507.7301617660" title="Chris Mack, Louisville "/>
 	</labeltrack>
-	<wavetrack name="jeff capel" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="jeff capel" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="0"/>
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="jeff capel" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="jeff capel" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="0"/>
 			<envelope numpoints="0"/>
@@ -1131,14 +1131,14 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="pitt fans" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="pitt fans" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="323.60281179" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="163984">
 				<waveblock start="0">
 					<simpleblockfile filename="eff1e1bf.au" len="163984" min="-0.508928" max="0.46262" rms="0.091977"/>
 				</waveblock>
 			</sequence>
-			<envelope numpoints="26">
+			<envelope numpoints="24">
 				<controlpoint t="0.004226590020" val="0.514084517956"/>
 				<controlpoint t="0.004226590020" val="0.500000000000"/>
 				<controlpoint t="0.005292351062" val="0.000000100000"/>
@@ -1163,36 +1163,27 @@
 				<controlpoint t="3.570497729112" val="0.746478915215"/>
 				<controlpoint t="3.570497729112" val="1.000000000000"/>
 				<controlpoint t="3.717154680776" val="0.774647891521"/>
-				<controlpoint t="330.899507087380" val="1.000000000000"/>
-				<controlpoint t="330.899507087380" val="0.746478915215"/>
 			</envelope>
 		</waveclip>
 		<waveclip offset="327.32126984" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="6542">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="13084">
 				<waveblock start="0">
-					<simpleblockfile filename="eff1e315.au" len="6542" min="-0.317426" max="0.361221" rms="0.110235"/>
+					<simpleblockfile filename="eff1eea2.au" len="13084" min="-0.317426" max="0.361221" rms="0.110235"/>
 				</waveblock>
 			</sequence>
-			<envelope numpoints="4">
+			<envelope numpoints="12">
 				<controlpoint t="0.000000000000" val="0.746478915215"/>
 				<controlpoint t="0.000384350427" val="0.746478915215"/>
 				<controlpoint t="0.000747088188" val="0.774647891521"/>
 				<controlpoint t="0.004848002785" val="0.929577469826"/>
-			</envelope>
-		</waveclip>
-		<waveclip offset="327.46961452" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="6542">
-				<waveblock start="0">
-					<simpleblockfile filename="eff1e381.au" len="6542" min="-0.317426" max="0.361221" rms="0.110235"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="6">
-				<controlpoint t="0.000000000000" val="0.746478915215"/>
-				<controlpoint t="0.000000000000" val="1.000000000000"/>
-				<controlpoint t="0.000000002948" val="1.000000000000"/>
-				<controlpoint t="0.000000002948" val="0.746478915215"/>
-				<controlpoint t="0.000384353375" val="0.746478915215"/>
-				<controlpoint t="0.000384353375" val="1.000000000000"/>
+				<controlpoint t="0.148344671202" val="0.929577469826"/>
+				<controlpoint t="0.148344671202" val="1.000000000000"/>
+				<controlpoint t="0.148344674150" val="1.000000000000"/>
+				<controlpoint t="0.148344674150" val="0.746478915215"/>
+				<controlpoint t="0.148729024577" val="0.746478915215"/>
+				<controlpoint t="0.148729024577" val="1.000000000000"/>
+				<controlpoint t="327.766303862404" val="1.000000000000"/>
+				<controlpoint t="327.766303862404" val="0.929577469826"/>
 			</envelope>
 		</waveclip>
 		<waveclip offset="338.13083237" colorindex="0">
@@ -1213,7 +1204,7 @@
 					<simpleblockfile filename="eff1ef35.au" len="13084" min="-0.317426" max="0.361221" rms="0.110235"/>
 				</waveblock>
 			</sequence>
-			<envelope numpoints="12">
+			<envelope numpoints="10">
 				<controlpoint t="0.000000000000" val="0.746478915215"/>
 				<controlpoint t="0.000384350427" val="0.746478915215"/>
 				<controlpoint t="0.000747088188" val="0.774647891521"/>
@@ -1224,19 +1215,17 @@
 				<controlpoint t="0.148344674150" val="0.746478915215"/>
 				<controlpoint t="0.148729024577" val="0.746478915215"/>
 				<controlpoint t="0.148729024577" val="1.000000000000"/>
-				<controlpoint t="987.762661319437" val="1.000000000000"/>
-				<controlpoint t="987.762661319437" val="0.929577469826"/>
 			</envelope>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="pitt fans" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="pitt fans" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="323.60281179" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="163984">
 				<waveblock start="0">
 					<simpleblockfile filename="eff1ec87.au" len="163984" min="-0.508928" max="0.46262" rms="0.091977"/>
 				</waveblock>
 			</sequence>
-			<envelope numpoints="26">
+			<envelope numpoints="24">
 				<controlpoint t="0.004226590020" val="0.514084517956"/>
 				<controlpoint t="0.004226590020" val="0.500000000000"/>
 				<controlpoint t="0.005292351062" val="0.000000100000"/>
@@ -1261,36 +1250,27 @@
 				<controlpoint t="3.570497729112" val="0.746478915215"/>
 				<controlpoint t="3.570497729112" val="1.000000000000"/>
 				<controlpoint t="3.717154680776" val="0.774647891521"/>
-				<controlpoint t="330.899507087380" val="1.000000000000"/>
-				<controlpoint t="330.899507087380" val="0.746478915215"/>
 			</envelope>
 		</waveclip>
 		<waveclip offset="327.32126984" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="6542">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="13084">
 				<waveblock start="0">
-					<simpleblockfile filename="eff1e45e.au" len="6542" min="-0.317426" max="0.361221" rms="0.110235"/>
+					<simpleblockfile filename="eff1ef6e.au" len="13084" min="-0.317426" max="0.361221" rms="0.110235"/>
 				</waveblock>
 			</sequence>
-			<envelope numpoints="4">
+			<envelope numpoints="12">
 				<controlpoint t="0.000000000000" val="0.746478915215"/>
 				<controlpoint t="0.000384350427" val="0.746478915215"/>
 				<controlpoint t="0.000747088188" val="0.774647891521"/>
 				<controlpoint t="0.004848002785" val="0.929577469826"/>
-			</envelope>
-		</waveclip>
-		<waveclip offset="327.46961452" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="6542">
-				<waveblock start="0">
-					<simpleblockfile filename="eff1e3b2.au" len="6542" min="-0.317426" max="0.361221" rms="0.110235"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="6">
-				<controlpoint t="0.000000000000" val="0.746478915215"/>
-				<controlpoint t="0.000000000000" val="1.000000000000"/>
-				<controlpoint t="0.000000002948" val="1.000000000000"/>
-				<controlpoint t="0.000000002948" val="0.746478915215"/>
-				<controlpoint t="0.000384353375" val="0.746478915215"/>
-				<controlpoint t="0.000384353375" val="1.000000000000"/>
+				<controlpoint t="0.148344671202" val="0.929577469826"/>
+				<controlpoint t="0.148344671202" val="1.000000000000"/>
+				<controlpoint t="0.148344674150" val="1.000000000000"/>
+				<controlpoint t="0.148344674150" val="0.746478915215"/>
+				<controlpoint t="0.148729024577" val="0.746478915215"/>
+				<controlpoint t="0.148729024577" val="1.000000000000"/>
+				<controlpoint t="327.766303862404" val="1.000000000000"/>
+				<controlpoint t="327.766303862404" val="0.929577469826"/>
 			</envelope>
 		</waveclip>
 		<waveclip offset="338.13083237" colorindex="0">
@@ -1311,7 +1291,7 @@
 					<simpleblockfile filename="eff1eb8f.au" len="13084" min="-0.317426" max="0.361221" rms="0.110235"/>
 				</waveblock>
 			</sequence>
-			<envelope numpoints="12">
+			<envelope numpoints="10">
 				<controlpoint t="0.000000000000" val="0.746478915215"/>
 				<controlpoint t="0.000384350427" val="0.746478915215"/>
 				<controlpoint t="0.000747088188" val="0.774647891521"/>
@@ -1322,19 +1302,17 @@
 				<controlpoint t="0.148344674150" val="0.746478915215"/>
 				<controlpoint t="0.148729024577" val="0.746478915215"/>
 				<controlpoint t="0.148729024577" val="1.000000000000"/>
-				<controlpoint t="987.762661319437" val="1.000000000000"/>
-				<controlpoint t="987.762661319437" val="0.929577469826"/>
 			</envelope>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" numlabels="5" height="73" minimized="0" isSelected="0">
+	<labeltrack name="Label Track" numlabels="5" height="73" minimized="0" isSelected="1">
 		<label t="190.7629251701" t1="201.5237414966" title="really proud of my team "/>
 		<label t="271.3423356009" t1="300.2008616780" title="oakland zoo and fans "/>
 		<label t="308.2242410323" t1="314.7290929705" title="oh oh oh ohhh"/>
 		<label t="327.3212698442" t1="327.6179591866" title="whistle"/>
 		<label t="338.1308323702" t1="338.5743764202" title="whistle "/>
 	</labeltrack>
-	<wavetrack name="pitt music" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="pitt music" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="327.61795919" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="470094">
 				<waveblock start="0">
@@ -1355,7 +1333,7 @@
 			</envelope>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="pitt music" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="pitt music" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="327.61795919" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="470094">
 				<waveblock start="0">
@@ -1376,7 +1354,7 @@
 			</envelope>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" numlabels="1" height="73" minimized="0" isSelected="0">
+	<labeltrack name="Label Track" numlabels="1" height="73" minimized="0" isSelected="1">
 		<label t="314.7290929705" t1="325.3888208617" title="kiki do you love me"/>
 	</labeltrack>
 </project>
